@@ -1,11 +1,18 @@
 <?php
-/**
-* COMP4711 Lab 1 
-* Student Class to represent a student obejct
-* 
-* @author Eva Yu
-* @version 1.0
-**/
+/*------------------------------------------------------------------------------
+-- SOURCE FILE: Student.php - Student Class
+-- DATE: JAN. 13, 2016
+-- FUNCTIONS:
+--      add_email($which,$address)
+--      add_grade($grade)
+--      average()
+--      toString()
+-- VERSION 
+--      1.0 - [EY] - 2016/JAN/13 
+-- AUTHOR: Eva Yu
+-- NOTES:
+-- This is the student class that tracks name, emails, and grades
+------------------------------------------------------------------------------*/
 
 class Student{
     

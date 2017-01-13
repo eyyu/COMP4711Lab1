@@ -6,7 +6,20 @@
 </head>
 <body>
     <?php
-    //import student class
+    /*------------------------------------------------------------------------------
+    -- SOURCE FILE: index.php - main php file
+    -- DATE: JAN. 13, 2017
+    -- VERSION: 
+    --      1.0 - [EY] - 2017/01/13 
+    -- AUTHOR: Eva Yu
+    --
+    -- NOTES:
+    -- This is a test class to play with php 
+    -- and running a local apache server with virtual hosting
+    -- this program will use the Student class ( in Student.php )
+    -- and create 3 students, then it will sort them 
+    -- and display them 
+    ------------------------------------------------------------------------------*/
     include('Student.php');
     
     $students = array();

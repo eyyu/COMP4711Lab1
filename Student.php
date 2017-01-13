@@ -38,10 +38,10 @@ class Student{
     //a basic to string operation that will show the details of the student 
     function toString() {
         $result = $this->first_name . ' ' . $this->surname;
-        $result .= ' ('.$this->average().")\n";
+        $result .= ' ('.$this->average().")\n\t";
         foreach($this->emails as $which=>$what)
-            $result .= $which . ': '. $what. "\n";
-        $result .= "\n";
+            $result .= $which . ': '. $what. "\n\t";
+        $result .= "\n\t";
         return '<pre>'.$result.'</pre>';
     }
 }
